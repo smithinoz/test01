@@ -16,6 +16,9 @@ then
 	sudo chmod +x /m/test01/xmr-stak-cpu/bin/xmr-stak-cpu	
  	sudo chmod +x /m/test01/proxychains-ng/proxychains4	
  	sudo chmod +x /m/test01/proxychains-ng/libproxychains4.so
+	# Placeholder for ProxyChains Update from Boot Strap Variables
+	# sudo sed -i 's/socks4/#http/' /m/test01/proxychains-ng/src/proxychains.conf
+	sudo sed -i -e "\$ahttp    $VAR_PI    $VAR_PO    $VAR_PO  $VAR_PP" /m/test01/proxychains-ng/src/proxychains.conf
 	sudo cp /m/test01/xmr/config.txt /m/test01/xmr-stak-cpu/bin/config.txt
         ( sleep 10800 ; sudo reboot ) & 
 	cd /m/test01/xmr-stak-cpu/bin/

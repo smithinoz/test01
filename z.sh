@@ -14,7 +14,7 @@
 	sudo chmod +x /m/test01/xmr-stak-cpu/bin/xmr-stak-cpu	
  	sudo chmod +x /m/test01/proxychains-ng/proxychains4	
  	sudo chmod +x /m/test01/proxychains-ng/libproxychains4.so
-	sudo cp /m/test01/xmr/config.txt /m/test01/xmr-stak-cpu/bin/config.txt
+	sudo cp /m/test01/xmr/config.az /m/test01/xmr-stak-cpu/bin/config.txt
 #	bash
 #while true; do
 	cd /m/test01/xmr-stak-cpu/bin

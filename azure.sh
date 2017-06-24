@@ -18,7 +18,7 @@ chmod +x ~/m/test01/proxychains-ng/libproxychains4.so
 #
 cd ~/m/test01
 sudo git clone --recursive https://github.com/rofl0r/proxychains-ng.git
-cd /m/test01/proxychains-ng
+cd ~/m/test01/proxychains-ng
 sudo  ./configure --prefix=/usr --sysconfdir=/etc
 sudo make
 #

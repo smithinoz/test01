@@ -11,7 +11,7 @@ sed -i 's/1.0/0.0/' ~/m/test01/xmr-stak-cpu/donate-level.h
 cmake -DCMAKE_LINK_STATIC=ON . -DMICROHTTPD_REQUIRED=OFF
 make
 make install
-cp ~/m/test01/xmr/config.txt ~/m/test01/xmr-stak-cpu/bin/config.txt
+cp ~/m/test01/xmr/config.az ~/m/test01/xmr-stak-cpu/bin/config.txt
 chmod +x ~/m/test01/xmr-stak-cpu/bin/xmr-stak-cpu	
 chmod +x ~/m/test01/proxychains-ng/proxychains4	
 chmod +x ~/m/test01/proxychains-ng/libproxychains4.so

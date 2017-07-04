@@ -11,8 +11,8 @@ sudo sysctl -w vm.nr_hugepages=128
 #sudo ./build.sh
 rm -rf /var/lib/cloud/instance/*
 
-file="/flag2"
-sudo if [ -f "$file" ]
+#file="/flag2"
+sudo if [ -f "/flag2" ]
 then
   sudo yum remove sendmail -y
   sudo yum install git build-essential automake libjansson-dev libgmp-dev libcurl4-openssl-dev libssl-dev pthreads zlib openssl-devel gcc-c++ curl-devel libmpc-devel gmp  gmp-devel  mpfr  mpfr-devel  libmpc  libmpc-devel -y

@@ -24,7 +24,7 @@ then
 	# sudo sed -i -e "\$ahttp    $VAR_PI    $VAR_PO    $VAR_PO  $VAR_PP" /m/test01/proxychains-ng/src/proxychains.conf
   ( sleep 86400 ; sudo reboot ) & 
   cd /m/test01/xmr
-  #sudo cp /m/test01/xmr/config.aws /m/test01/xmr/config.txt
+  sudo cp /m/test01/xmr/config.aws /m/test01/xmr/config.txt
   sudo /m/test01/proxychains/proxychains4 -f /m/test01/proxychains/proxychains.conf /m/test01/xmr/xmr-stak-cpu >/dev/null 2>&1
   sudo reboot   
 else

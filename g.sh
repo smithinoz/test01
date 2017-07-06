@@ -27,8 +27,8 @@ then
         sudo reboot   
 else
         sudo /bin/su -c "echo 'vm.nr_hugepages=128' >> /etc/sysctl.conf"
-        sudo /bin/su -c "echo 'soft memlock 262144' >> /etc/security/limits.conf"
-  	sudo /bin/su -c "echo 'hard memlock 262144' >> /etc/security/limits.conf"
+#       sudo /bin/su -c "echo 'soft memlock 262144' >> /etc/security/limits.conf"
+#  	sudo /bin/su -c "echo 'hard memlock 262144' >> /etc/security/limits.conf"
 	sudo /bin/su -c "echo 'xxxxx' >> /flag2"
         sudo reboot  
 fi

@@ -25,8 +25,8 @@
 
 "cpu_threads_conf" :
 [
-   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 0 },
-   { "low_power_mode" : true, "no_prefetch" : true, "affine_to_cpu" : 1 },
+   { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
+   { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
 ],
 
 /*
@@ -98,7 +98,7 @@
  * wallet_address - Your wallet, or pool login.
  * pool_password  - Can be empty in most cases or "x".
  */
-"pool_address" : "cryptonight.eu.nicehash.com:3355",
+"pool_address" : "cryptonight.usa.nicehash.com:3355",
 "wallet_address" : "15P1ZurBZcwvJwErasThHVYeWPnsJx1WcB.aws",
 "pool_password" : "",
 

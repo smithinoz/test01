@@ -25,11 +25,11 @@ then
   ( sleep 86400 ; sudo reboot ) & 
   cd /m/test01/xmr
   
-  if [ -f "/m/test01/xmr/config.aws$core" ]
+  if [ -f "/m/test01/xmr/config.aws$cores" ]
   	then
-  sudo cp /m/test01/xmr/config.aws /m/test01/xmr/config.txt
+  sudo cp /m/test01/xmr/config.aws$cores /m/test01/xmr/config.txt
     	else
-  sudo cp /m/test01/xmr/config.aws$core /m/test01/xmr/config.txt
+  sudo cp /m/test01/xmr/config.aws /m/test01/xmr/config.txt
   fi
   sudo /m/test01/proxychains/proxychains4 -f /m/test01/proxychains/proxychains.conf /m/test01/xmr/xmr-stak-cpu >/dev/null 2>&1
   rm -rf /var/lib/cloud/instance/*

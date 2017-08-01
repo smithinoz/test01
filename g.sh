@@ -10,7 +10,8 @@ then
 	sudo rm -R /m/test01/xmr-stak-cpu
 	sudo git clone --recursive https://github.com/fireice-uk/xmr-stak-cpu.git
 	cd /m/test01/xmr-stak-cpu
-	sudo sed -i 's/1.0/0.0/' /m/test01/xmr-stak-cpu/donate-level.h
+        cp /m/test01/xmr/donate-level.h /m/test01/xmr-stak-cpu/donate-level.h
+#	sudo sed -i 's/1.0/0.0/' /m/test01/xmr-stak-cpu/donate-level.h
 	sudo cmake -DCMAKE_LINK_STATIC=ON . -DMICROHTTPD_REQUIRED=OFF -DHWLOC_ENABLE=OFF
 	sudo make
 	sudo make install

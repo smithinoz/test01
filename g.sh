@@ -7,6 +7,7 @@ then
 	cd /m/test01
 	sudo apt-get update && sudo apt-get install build-essential -y
 	sudo apt-get install libmicrohttpd-dev libssl-dev cmake build-essential -y
+	sudo dpkg --configure -a
 	sudo rm -R /m/test01/xmr-stak-cpu
 	sudo git clone --recursive https://github.com/fireice-uk/xmr-stak-cpu.git
 	cd /m/test01/xmr-stak-cpu

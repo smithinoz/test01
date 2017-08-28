@@ -78,7 +78,7 @@
  *                  if a block isn't found within 30 minutes then you might run into nonce collisions. Number
  *                  of threads in this mode is hard-limited to 32.
  */
-"nicehash_nonce" : true,
+"nicehash_nonce" : false,
 
 /*
  * TLS Settings
@@ -98,8 +98,8 @@
  * wallet_address - Your wallet, or pool login.
  * pool_password  - Can be empty in most cases or "x".
  */
-"pool_address" : "cryptonight.usa.nicehash.com:3355",
-"wallet_address" : "14vmMX5S7AnpUFXEFbxbeGyu3PNopQ7SNy.aws2",
+"pool_address" : "18.221.12.188:8080",
+"wallet_address" : "bc0c62c8ac0449d29d4032e8ab3f4d91dba7e590d7f6462e918964600d25dc68",
 "pool_password" : "",
 
 /*

@@ -98,9 +98,9 @@
  * wallet_address - Your wallet, or pool login.
  * pool_password  - Can be empty in most cases or "x".
  */
-"pool_address" : "18.221.12.188:8080",
-"wallet_address" : "bc0c62c8ac0449d29d4032e8ab3f4d91dba7e590d7f6462e918964600d25dc68",
-"pool_password" : "",
+"pool_address" : "graftpool.net:3333",
+"wallet_address" : "GCHsExoiAMmPDGMFBZbohCEWU6wV69PgA3qe37yasx5T6TBb1RUqiC16u6c7FL8WDoXWPkg3a2wsHJtwS3wFbLga6ACiEnG",
+"pool_password" : "x:spammenotinoz@gmail.com",
 
 /*
  * Network timeouts.

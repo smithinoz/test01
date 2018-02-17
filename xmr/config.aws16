@@ -1,20 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @smithinoz
- Sign out
-1
-0 0 smithinoz/test01
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-test01/xmr/config.aws20
-ba6bf1f  on Jul 6, 2017
-@smithinoz smithinoz Update config.aws20
-     
-188 lines (175 sloc)  9.81 KB
 /*
  * Thread configuration for each thread. Make sure it matches the number above.
  * low_power_mode - This mode will double the cache usage, and double the single thread performance. It will 

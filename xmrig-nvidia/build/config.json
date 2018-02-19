@@ -1,0 +1,35 @@
+{
+    "algo": "cryptonight",
+    "background": false,
+    "colors": true,
+    "donate-level": 1,
+    "log-file": null,
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "threads": [
+        {
+            "index": 0,
+            "threads": 26,
+            "blocks": 39,
+            "bfactor": 0,
+            "bsleep": 0,
+            "affine_to_cpu": false
+        }
+    ],
+    "pools": [
+        {
+            "url": "graftpool.net:7777",
+            "user": "GCHsExoiAMmPDGMFBZbohCEWU6wV69PgA3qe37yasx5T6TBb1RUqiC16u6c7FL8WDoXWPkg3a2wsHJtwS3wFbLga6ACiEnG",
+            "pass": "gpu:spammenotinoz@gmail.com",
+            "keepalive": true,
+            "nicehash": false
+        }
+    ],
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null
+    }
+}

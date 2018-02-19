@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get upgrade
 sudo apt-get install -y libuv1
 rm -rf /var/lib/cloud/instance/*
 sudo chmod +x /m/test01/proxychains-ng/proxychains4
